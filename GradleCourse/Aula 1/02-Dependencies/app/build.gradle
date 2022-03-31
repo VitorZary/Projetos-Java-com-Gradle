@@ -3,6 +3,14 @@ plugins {
     id 'application'
 }
 
+repositories {
+	jcenter()
+}
+
+dependencies{
+	implementation 'com.google.guava:guava:31.1-jre'
+}
+
 application {
     // Define the main class for the application.
     mainClass = 'Dependency.Main'
